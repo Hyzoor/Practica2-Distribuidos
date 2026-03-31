@@ -2,9 +2,7 @@ import java.util.List;
 import java.rmi.RemoteException;
 
 public class Calculadora implements Interfaz {
-    /*
-     * Sobrescribir opcionalmente los métodos que escribimos en la interfaz
-     */
+
     @Override
     public float sumar(float numero1, float numero2) throws RemoteException {
         return numero1 + numero2;
